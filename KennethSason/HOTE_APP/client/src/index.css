@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif !important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: black !important;
+  
+}
+.nav-link{
+  color: white !important;
+}
+.navbar-brand{
+  color: white !important;
+}
+
+.smallimg{
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+h1{
+  font-size: 20px !important ;
+  font-weight: 400;
+}
+
+.btn{
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+.bs{
+  box-shadow: 2px 11px 13px 0px rgba(0,0,0,0.63);
+-webkit-box-shadow: 2px 11px 13px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 2px 11px 13px 0px rgba(0,0,0,0.63);
+margin-top: 20px !important;
+border-radius: 5px;
+padding: 20px !important;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-6 {
+  background: rgb(247,150,192);
+background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+ box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  background: transparent;
+  color: #76aef1;
+  box-shadow: none;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+.bigimg{
+  height: 400px !important;
+  background-size: cover;
+  border-radius: 5px;
+}
+/* img{
+  width: 100%;
+} */
+.btn-primary{
+  border: none !important;
+  margin-right: 2px !important;
+}
+hr{
+  width: 100%;
+}
+input{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 1px solid rgb(161, 161, 161) !important;
+}
+h2{
+  font-size: 30px !important;
+  padding: 10px;
+  font-weight: bolder;
+}
+.dropdown-toggle{
+  border: 0px solid black;
+}
